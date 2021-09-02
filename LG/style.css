@@ -1,0 +1,114 @@
+/*CSS global(vai ser utilizado em todas as páginas)*/      
+*{
+    border: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    /*Acabamos de zerar todas as estilizações pré prontas
+    que o navegador já disponibiliza. Isso facilita a desen
+    voltura do site, sua responsividade, etc...*/
+    
+}
+h2{font-size: 5rem;}
+
+p{font-size: 2rem;}  
+
+body{
+    background: whitesmoke;
+}
+
+body, ul{
+  margin: 0rem;
+  padding: 0rem;  
+}
+
+html{
+    --redLG1: #f00000;
+    --redLG2: #dc281e;
+    --greyLG: #a3a5a5;
+    font-size: 62.5%; /*Ou seja, colocamos o tamanho padrão 
+    como 10px(62.5%) */
+    /*Comando para aplicar o gadrient caso nn funcione com o var: 
+    background: linear-gradient(to left, #f00000, #dc281e);*/
+    
+}
+li{font-size: 2rem;}
+
+a{color:black; font-family: sans-serif;}
+
+#logoLG{
+    font-size: 10rem;
+    font-weight: bold;
+    cursor: default;
+}
+#responsivo{
+    display:none;
+}
+
+header{
+    display: flex;/*Cada item fica um ao lado do outro*/
+    align-items: center;
+    height: 10rem;
+    padding: 1.6rem;
+    background: var(--redLG1);
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+#about .content-menu{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+.content-menu a{
+    display: block;
+    padding: 2.8rem;
+    cursor: default;
+}
+.content-menu .no-dropdown a{
+    cursor: pointer;
+}
+
+.content-menu .responsivo{
+    display: none;
+}
+
+.content-menu ul{
+    position: absolute;
+    top: 6rem;
+    background: var(--redLG2);
+    list-style: none;
+    display: none; 
+    
+}
+
+.content-menu ul li{
+    width: 15rem;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+#about .content-menu ul li a{
+    cursor: pointer;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+#about .content-menu li:hover > ul{
+    display: block;   
+}
+
+#about #btn-hamburguer{
+    display: none;
+}
+.login{width: 4rem;
+    cursor: pointer;
+}
+
+
+
+
+

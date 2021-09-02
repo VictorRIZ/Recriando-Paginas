@@ -1,0 +1,57 @@
+/*CSS destinado a página principal*/
+
+.sobre-nos{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex;
+    padding: 1rem;
+}
+.imagem-sobre{
+    height: 40rem;
+}
+
+
+#conteudo{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: gainsboro;
+}
+
+#conteudo h2{
+    display: none;
+}
+
+#conteudo .sobre-conteudo{
+    position: relative; 
+    width: 32rem; 
+    height: 42rem; 
+    background: var(--greyLG);
+    border-radius: 2rem; 
+    margin: 4rem;
+    overflow: hidden;
+}
+
+.sobre-conteudo .img-conteudo{
+    position: relative; 
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 1rem; 
+    z-index: 1;
+}
+
+.sobre-conteudo .info-conteudo{
+    font-size: 1.8rem; 
+    color: aliceblue;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+
+
+    

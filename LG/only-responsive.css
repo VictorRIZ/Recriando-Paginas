@@ -1,0 +1,122 @@
+/*@media é um parâmetro para definir estilos a serem utilizados em 
+um tamanho específico determinado pelo desenvolvedor*/
+
+
+@media(max-width: 1200px)/*Estilos a serem aplicados
+ abaixo de 1200px*/{
+
+#responsivo{
+    font-size: 3rem;
+    display:block;
+    cursor: default;
+}
+
+.sobre-nos{
+display: inline-block;
+
+
+}
+/*Lembrar de editar dps*/
+.sobre-nos img{
+    height: 30rem;
+    margin-left: auto;
+   margin-right: auto;
+}
+
+.login{
+    display:none;
+}
+#about.active .content-menu{
+    left: 0;
+    height: calc(100vh - 10rem);
+    overflow-y: auto;
+    visibility: visible;
+}
+#about .content-menu{
+    position: absolute; 
+    top: 10rem; 
+    left: -100%; 
+    display: block;  
+    width: 100%;
+    height: 0rem;
+    background: gray;
+    transition: .5s;
+    z-index:1000; 
+    visibility: hidden;
+    overflow-y: hidden;
+
+}
+
+#about .content-menu a{
+    border-bottom: 2px solid rgb(251, 106, 106);
+    cursor: pointer;
+}
+
+#about .content-menu ul li{
+    display: none;
+}
+
+header .content-menu li a{color: #ffffff; 
+    font-size: 2.4rem; 
+    margin: 1rem;
+     }
+
+header .content-menu li a:hover{color: var(--redLG1);
+     }
+
+
+#about #btn-hamburguer{
+    display: flex;
+    padding: .8rem 1.6rem;
+    font-size: 1.6rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: .8rem;
+}
+
+#hamburguer{
+  display: block;
+  width: 2rem; 
+  border-top: .2rem solid; 
+  transition: .4s;
+}
+
+#hamburguer::after, #hamburguer::before{
+    content: '';
+    display: block; /*Teria que criar um display e content para
+    que detecte o objeto, no caso o menu hamburguer. Caso nn
+    fizesse isso, ficaria vazio*/
+    width: 2rem;
+    height: .2rem;
+    background: currentColor;/*Uma variável que muda a cor conforme
+    escrita no hamburguer*/
+    margin-top: .8rem;
+    transition: .4s; /*Tempo que o menu hamburguer sofrerá a animação*/
+    position: relative;
+}
+
+#about.active #btn-hamburguer{
+    color: whitesmoke;
+    transition: .2s;
+}
+
+#about.active #hamburguer{
+    color: whitesmoke;
+    transition: .2s;
+    border-top-color: transparent;/*Aqui, o 1º traço ficará transpa-
+    rente após o usuário clicar no menu hamburguer*/
+}
+
+#about.active #hamburguer::before{
+transform: rotate(135deg); /*Se refere a quantos º de rotação
+sofrerá*/
+}
+
+#about.active #hamburguer::after{
+    transform: rotate(-135deg);
+    top: -1rem; /*Só funciona com objetos em posicionamento 
+    relativo, fixo ou absoluto*/
+    
+}
+}
