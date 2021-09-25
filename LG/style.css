@@ -10,7 +10,7 @@
     voltura do site, sua responsividade, etc...*/
     
 }
-h2{font-size: 5rem;}
+h2{font-size: 3.5rem;}
 
 p{font-size: 2rem;}  
 
@@ -55,6 +55,10 @@ header{
     box-sizing: border-box;
     justify-content: space-between;
 }
+
+header ul li #logoLG{
+   display:none;
+    }
 
 #about .content-menu{
     display: flex;

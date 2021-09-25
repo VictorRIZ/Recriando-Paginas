@@ -43,3 +43,32 @@ console.log(fruits.length)
 to put the position of the element. So, the object return undefined*/
 //Resumindo, ficou assim: ['banana', 'orange', undefined] 
 
+//Como funciona os events em JS
+
+/*onClick
+O elemento é clicado pelo usuário
+
+onBlur
+Remove o foco do elemento
+
+onChange
+Muda o valor do elemento
+
+onFocus
+O elemento é focado
+
+onKeyPress
+O usuário pressiona uma tecla sobre o elemento
+
+onLoad
+carrega o elemento por completo
+
+onMouseOver
+Define ação quando o usuário retira o mouse sobre o elemento
+
+onSubmit
+Define ação ao enviar um formulário
+(Mais pra frente irei pesquisar sobre exemplos detalhados)
+*/
+
+

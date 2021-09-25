@@ -24,7 +24,7 @@
     display: none;
 }
 
-#conteudo .sobre-conteudo{
+ .sobre-conteudo{
     position: relative; 
     width: 32rem; 
     height: 42rem; 
@@ -40,18 +40,70 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    padding-top: 1rem; 
+    padding-top: .5rem; 
     z-index: 1;
 }
 
 .sobre-conteudo .info-conteudo{
+    position: absolute;
     font-size: 1.8rem; 
     color: aliceblue;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: .1rem;
+    top: 65%;
+    left: 25%;
 }
 
+.info-conteudo .buy{
+    padding: 1rem;
+    background-color: var(--redLG1);
+    border-radius: 10rem;
+    transition: .6s;
+    border: .3rem solid transparent;
+    
+
+}
+.info-conteudo .buy:hover{
+    color: var(--redLG1);
+    background: transparent;
+    transition: .6s;
+    border-color: var(--redLG1); 
+}
+
+footer{display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 4rem;
+    background: var(--redLG1);
+    width: auto;
+    flex-direction: column;
+}
+footer .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+footer .icons i{
+    margin: 2rem;
+    font-size: 3rem;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-linkedin{
+    color: rgb(76, 114, 240);
+}
+.fa-instagram{
+    color: #9c47fc;
+    margin-left: 12px;
+    background: -webkit-linear-gradient(#9c47fc, #c37f00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-youtube{
+color: rgb(126, 15, 15);
+}
 
 
     
