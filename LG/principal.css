@@ -1,4 +1,4 @@
-/*CSS destinado a página principal*/
+/*CSS destinado a página principal e a login.html*/
 
 .sobre-nos{
     position: relative;
@@ -32,6 +32,7 @@
     border-radius: 2rem; 
     margin: 4rem;
     overflow: hidden;
+    text-align: center;
 }
 
 .sobre-conteudo .img-conteudo{
@@ -74,7 +75,7 @@
 footer{display: flex;
     align-items: center;
     justify-content:center;
-    padding: 4rem;
+    padding: .2rem;
     background: var(--redLG1);
     width: auto;
     flex-direction: column;
@@ -85,7 +86,7 @@ footer .icons{
     justify-content: center;   
 }
 footer .icons i{
-    margin: 2rem;
+    margin: 1rem;
     font-size: 3rem;
 }
 .fa-facebook{
@@ -105,5 +106,76 @@ footer .icons i{
 color: rgb(126, 15, 15);
 }
 
+/*Login.html*/
 
-    
+header a i{
+    font-size: 3rem;
+}
+
+header ul .life a{
+    font-size: 3rem;
+}
+.register-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    background: black;
+    height: 73.6rem;
+}
+
+.register form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(14, 14, 14);
+    box-shadow: .1rem .1rem .1rem .5rem rgba(50, 0, 0, 2);
+    padding: 6rem;
+    padding-bottom: 3rem;
+}
+
+.register form input{
+    font-size: 2.5rem;
+}
+
+.register form label{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.ou{
+    position: relative;
+    margin-left: 7%;
+    margin-right: 10%;
+    color: white;
+    font-size: 3rem;
+}
+form{
+}
+
+.registrar{
+    padding: 1.2rem;
+    background: black;
+    color: gray;
+    border-radius: 1rem;
+    margin: 1rem;
+    transition: .5s
+}
+.registrar:hover{
+    box-shadow: 0 0 .2rem blue,
+    0 0 .5rem blue,
+    0 0 .5rem blue; 
+    transition-delay: 0.5s; 
+    transition: .5s;
+}
+.registrar.e:hover{
+    box-shadow: 0 0 .2rem var(--redLG1),
+    0 0 .5rem var(--redLG1),
+    0 0 .5rem var(--redLG1); 
+}
+
+.registrar.l:hover{
+    box-shadow: 0 0 .2rem green,
+    0 0 .5rem green,
+    0 0 .5rem green; 
+}

@@ -50,10 +50,14 @@ header{
     display: flex;/*Cada item fica um ao lado do outro*/
     align-items: center;
     height: 10rem;
-    padding: 1.6rem;
+    padding: 1.8rem;
     background: var(--redLG1);
     box-sizing: border-box;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    top: 0%;
 }
 
 header ul li #logoLG{

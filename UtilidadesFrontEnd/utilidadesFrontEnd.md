@@ -49,3 +49,13 @@ display: grid;
 place-items: center;
 
 <meta name="theme-color" content="#fff"> /*Esse comando vai definir a cor que aparecerá na barra superior dos browsers mobile*/
+
+*Deixando o icon gradiente(instagram)*
+ color: #9c47fc;
+    margin-left: 1.2rem;
+    background: -webkit-linear-gradient(#9c47fc, #c37f00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+
+Método para deixar os icons gradientes, utilizando a propriedade -webkit-linear-gradient. Bem semelhante ao background-gradient. Creio eu que é possível usar também em palavras, como h1, p.... Porque o icon quando não é imagem, é tratado como texto.
+

@@ -24,7 +24,7 @@ display: inline-block;
 }
 
 .login{
-    display:none;
+    display:flex;
 }
 #about.active .content-menu{
     left: 0;
@@ -38,7 +38,7 @@ display: inline-block;
     top: 0; 
     left: -100%; 
     display: block;  
-    width: 38%;
+    width: 35%;
     height: 0rem;
     background: var(--redLG1);
     transition: .8s;
@@ -58,7 +58,7 @@ display: inline-block;
 }
 
 header .content-menu li a{color: #ffffff; 
-    font-size: 2.4rem; 
+    font-size: 2.2rem; 
     margin: 1rem;
      }
 
@@ -129,5 +129,17 @@ sofrerá*/
     relativo, fixo ou absoluto*/
     
 }
+/*login*/
 
+.register-login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 110rem;
+    margin-top: 8.5%;
+}
+
+.register form{
+    margin-top: 9%;
+}
 }
