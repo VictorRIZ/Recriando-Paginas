@@ -1,8 +1,8 @@
 # Recriando-Paginas
 
-Arquivo com o intuito de recriar algumas páginas famosas. Não é um clone e sim uma releitura.
+Recreating some pages. It's not a clone, just a different page in comparison to original
 
-Linguagens utilizadas:
+Languages:
 
 *HTML*
 
@@ -10,6 +10,6 @@ Linguagens utilizadas:
 
 *JS*
 
-*Sem frameworks*
+*No frameworks*
 
-*Projeto em andamento*
+*Work in progress*
