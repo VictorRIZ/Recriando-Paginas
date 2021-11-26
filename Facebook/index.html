@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#00f">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/facebook-Icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook - entre ou cadastre-se</title>
+</head>
+<body>
+    <section id="corpo">
+        <div class="perfis">
+            <img class="logo" src="images/Facebook-Logo.png" alt="Logo Facebook">
+            <h1>Logins recentes</h1>
+            <p>Clique na sua foto ou adicione uma conta.</p>
+            <div class="imagens">
+                <img src="images/perfil.png" alt="">
+                <div class="text">
+                <h2>Jonnas</h2>
+            </div>
+            </div>
+            <div class="imagens ad">
+                <img src="images/adicionarface.png" alt="">
+                <div class="text">
+                    <h2>Adicionar conta</h2>
+                </div>
+            </div>
+        </div>
+        <div class="criar-conta">
+            <input type="text" name="nome" id="" placeholder="E-mail">
+            <br>
+            <input type="password" name="" id="" placeholder="senha">
+            <br>
+            <div class="sobre-contas">
+            <button class="entrar"> Entrar </button>
+            <a href="#"> Esqueceu a senha ?</a>
+            <div class="risco"></div>
+            <button onclick="Modal.open()"class="novaconta"> Criar nova conta </button>
+        </div>
+    </div>
+    </section>
+</main>
+<!--Modal-->
+<div class="main-overlay ">
+    <div class="modal">
+        <div id="form">
+            <h2>Cadastre-se</h2>
+            <p>É rápido e facil</p>
+            <span onclick="Modal.close()">X</span>
+            <div class="risco"></div>
+                 </div> 
+                     <input type="text" name="" id="" placeholder="Nome">
+                     <input type="text" name="" id="" placeholder="Sobrenome">
+                     <div class="senhas">
+                         <br>
+                     <input type="text" name="" id="" placeholder="Celular ou email">          
+                     <br>
+                     <input type="password" name="" id="" placeholder="*****">
+                </div>
+                </div>
+        <div class="input-group actions">
+            <a onclick="Modal.close()" href="#">Cadastre-se</a>
+        </div>
+            
+    </div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

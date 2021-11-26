@@ -38,7 +38,7 @@ display: inline-block;
     top: 0; 
     left: -100%; 
     display: block;  
-    width: 35%;
+    width: 33%;
     height: 0rem;
     background: var(--redLG1);
     transition: .8s;
@@ -58,7 +58,7 @@ display: inline-block;
 }
 
 header .content-menu li a{color: #ffffff; 
-    font-size: 2.2rem; 
+    font-size: 2rem; 
     margin: 1rem;
      }
 

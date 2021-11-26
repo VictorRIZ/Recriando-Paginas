@@ -31,6 +31,7 @@ html{
     como 10px(62.5%) */
     /*Comando para aplicar o gadrient caso nn funcione com o var: 
     background: linear-gradient(to left, #f00000, #dc281e);*/
+    scroll-behavior: smooth;
     
 }
 li{font-size: 2rem;}
