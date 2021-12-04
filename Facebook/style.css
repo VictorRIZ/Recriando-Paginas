@@ -168,8 +168,8 @@ p{
     transition: .3s;
 }
 
-.modal{background-color: whitesmoke;
-     padding: 1.5rem; 
+.modal{background-color: white;
+     padding: 1rem; 
      position: relative; 
      z-index: 1;
      box-shadow:  .5rem .5rem .5rem rgba(0, 0, 0 ,0.1) ;
@@ -178,15 +178,77 @@ p{
     font-size: 2rem;
     cursor: pointer;
     position: fixed;
-    top: 35%;
-    right: 36%;
+    top: 16%;
+    right: 33.5%;
 }
 .modal input{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin: 1rem;
+    padding: 1.2rem;
+    background: rgb(243, 243, 243);
 }
 
 .modal .senhas{
     display: grid;
     flex-direction: column;
+}
+.modal .genero{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+}
+.genero label{
+    font-size: 1.8rem;
+    background: rgb(255, 255, 255);
+    border: 1px solid gray;
+}
+
+.modal .sobre-contas .novaconta{
+    padding: 1rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+/*Segundo modal(entar na conta)*/
+.modal.two{
+    display: grid;
+    place-items: center;
+    background: rgb(246, 246, 246)
+}
+
+.modal.two input{
+    background: white;
+    outline: none;
+    border: 1px solid rgb(206, 206, 206);
+    padding:1.5rem;
+    padding-left: 1rem;
+    padding-right: 12rem;
+    border-radius: 1rem;
+}
+
+.modal.two label input{
+    position: relative;
+    right: 5%;
+}
+.modal.two label{
+    position: relative;
+    right: 22%;
+    font-size: 2rem;
+}
+
+.modal.two span{
+    left: 61%;
+    top: 27%;
+}
+
+.modal.two .sobre-contas button{
+    background: rgb(52, 88, 250);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-left: 13rem;
+    padding-right: 13rem;
+}
+
+.modal.two img{
+    border-radius: 15rem;
+    width: 40%;
 }

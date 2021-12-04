@@ -19,11 +19,12 @@
             <h1>Logins recentes</h1>
             <p>Clique na sua foto ou adicione uma conta.</p>
             <div class="imagens">
-                <img src="images/perfil.png" alt="">
+               <a onclick="ModalTwo.open()"><img src="images/perfil.png" alt=""></a> 
                 <div class="text">
                 <h2>Jonnas</h2>
             </div>
             </div>
+
             <div class="imagens ad">
                 <img src="images/adicionarface.png" alt="">
                 <div class="text">
@@ -45,7 +46,7 @@
     </div>
     </section>
 </main>
-<!--Modal-->
+<!--Modal criar conta-->
 <div class="main-overlay ">
     <div class="modal">
         <div id="form">
@@ -62,12 +63,42 @@
                      <br>
                      <input type="password" name="" id="" placeholder="*****">
                 </div>
+                <div class="datas">
+                    <input type="month" name="" id="">
+                    <input type="text" name="" id="" placeholder="01">
                 </div>
-        <div class="input-group actions">
-            <a onclick="Modal.close()" href="#">Cadastre-se</a>
-        </div>
-            
+                <div class="genero">
+                    <label><input type="checkbox" name="checkbox" value="value">Feminino</label>
+                    <label><input type="checkbox" name="checkbox" value="value">Masculino</label>
+                    <label><input type="checkbox" name="checkbox" value="value">Outro</label>
+                </div>
+                Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados 
+                e Política de Cookies. <br>
+                Você poderá receber notificações por SMS e cancelar isso 
+                quando quiser.
+                <div class="sobre-contas">
+                    <button onclick="Modal.close()"class="novaconta"> Cadastrar-se </button>
+                </div>
+                </div>
     </div>
+
+    <!--Modal entrar na conta-->
+    <div class="main-overlay two">
+        <div class="modal two">        
+                <span onclick="ModalTwo.close()">X</span>
+                    
+                         <img src="images/perfil.png" alt="">
+                        <p>Jonnas</p>
+                         <input type="password" name="" id="" placeholder="*****">
+                    
+                        <label><input type="checkbox" name="checkbox" value="value">Lembrar senha</label>
+                  
+                    <div class="sobre-contas">
+                        <button onclick="ModalTwo.close()"class="novaconta"> Entrar </button>
+                        <a href="#"> Esqueceu a senha ?</a>
+                    </div>
+                    </div>
+        </div>
 </div>
 </div>
 <script src="script.js"></script>
