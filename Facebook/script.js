@@ -34,14 +34,16 @@ const ModalTwo = {
 const ModalThree = {
     open(){
         
-         document.querySelector('.main-overlay')
+         document.querySelector('.main-overlay.three')
          .classList
          .add('active')
     },
     close(){
         
-        document.querySelector('.main-overlay')
+        document.querySelector('.main-overlay.three')
          .classList
          .remove('active')
     }
 }
+
+/*Dark Mode */

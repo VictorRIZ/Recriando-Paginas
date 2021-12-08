@@ -26,7 +26,7 @@
             </div>
 
             <div class="imagens ad">
-                <img src="images/adicionarface.png" alt="">
+                <a onclick="ModalThree.open()"><img src="images/adicionarface.png" alt=""></a>
                 <div class="text">
                     <h2>Adicionar conta</h2>
                 </div>
@@ -99,6 +99,23 @@
                     </div>
                     </div>
         </div>
+
+        <div class="main-overlay three">
+            <div class="modal three">        
+                    <span onclick="ModalThree.close()">X</span>
+                            <h1>Entrar no facebook</h1>
+                            <div class="risco"></div>
+                             <input type="text" name="" id="">
+                             <input type="password" name="" id="" placeholder="*****">
+                        
+                            <label><input type="checkbox" name="checkbox" value="value">Lembrar senha</label>
+                      
+                        <div class="sobre-contas">
+                            <button onclick="ModalThree.close()"class="novaconta"> Entrar </button>
+                            <a href="#"> Esqueceu a senha ?</a>
+                        </div>
+                        </div>
+            </div>
 </div>
 </div>
 <script src="script.js"></script>

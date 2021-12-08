@@ -212,7 +212,7 @@ p{
 .modal.two{
     display: grid;
     place-items: center;
-    background: rgb(246, 246, 246)
+    background: rgb(255, 255, 255)
 }
 
 .modal.two input{
@@ -237,7 +237,7 @@ p{
 
 .modal.two span{
     left: 61%;
-    top: 27%;
+    top: 24%;
 }
 
 .modal.two .sobre-contas button{
@@ -251,4 +251,39 @@ p{
 .modal.two img{
     border-radius: 15rem;
     width: 40%;
+}
+
+.modal.three{
+    display: grid;
+    place-items: center;
+    background: rgb(255, 255, 255)
+}
+
+.modal.three h1{
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.modal.three span{
+    left: 62.5%;
+    top: 27%;
+}
+
+.modal.three input{
+    padding-left: 1rem;
+    padding-right: 12rem;
+    border-radius: .5rem;
+}
+
+.modal.three .sobre-contas button{
+    background: blue;
+    padding-left: 17rem;
+    padding-right: 17rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+.modal.three .risco{
+    border: .05rem solid  rgb(209, 209, 209);
+    padding-left: 25rem;
+    padding-right:15rem;
 }
