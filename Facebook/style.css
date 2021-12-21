@@ -275,6 +275,12 @@ p{
     border-radius: .5rem;
 }
 
+.modal.three label{
+    position: relative;
+    right: 22%;
+    font-size: 2rem;
+}
+
 .modal.three .sobre-contas button{
     background: blue;
     padding-left: 17rem;
@@ -286,4 +292,40 @@ p{
     border: .05rem solid  rgb(209, 209, 209);
     padding-left: 25rem;
     padding-right:15rem;
+}
+
+@media(max-width: 1300px){
+ 
+#corpo{
+    display: grid;
+}
+
+#corpo .perfis{
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.criar-conta{
+    padding: 5rem;
+    background: white;
+    margin: 2rem;
+    margin-top: 3rem;
+    width: 62%;
+    left: 5%;
+}
+}
+
+@media(max-width: 667px){
+    
+#corpo .perfis .logo{
+        width: 50%;
+}
+
+.criar-conta{
+    position: absolute;
+    width: 94%;
+    left: 0%;
+    top: 99%;
+}
 }
