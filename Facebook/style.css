@@ -328,4 +328,20 @@ p{
     left: 0%;
     top: 99%;
 }
+
+.modal span{
+    top: 16%;
+    right: 4.5%;
+}
+
+.modal.two span{
+    left: 80%;
+    top: 22%;
+}
+
+.modal.three span{
+    left: 83%;
+    top: 27%;
+}
+
 }
