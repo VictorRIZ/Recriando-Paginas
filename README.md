@@ -1,7 +1,6 @@
 # Recriando-Paginas
 
-Recreating some pages. It's not a clone, just a different page in comparison to original
-
+Recreating some pages. It's look like a clone.
 Languages:
 
 *HTML*
