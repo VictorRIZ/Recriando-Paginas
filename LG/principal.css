@@ -179,3 +179,10 @@ form{
     0 0 .5rem green,
     0 0 .5rem green; 
 }
+
+/* Estilizando a cor dos inputs
+{funciona no checkbox, radio, range e progress}
+input[type=checkbox]{
+    accent-color: green;
+}
+*/
