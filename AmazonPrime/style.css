@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*
+    Truque pra mudar toda a fonte do site*/
+}
+
+body{
+    background: rgb(212, 212, 212);
+}
+
+.center{
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.flex{
+    display: flex;
+}
+
+.align-flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.align-flex-end{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+header{
+    height: 85px;
+    background: #303c4d;
+    color: whitesmoke;
+}
+
+.logo{
+    padding: 0 8px;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.search{
+    width: 70%;
+    display: flex;
+}
+
+.search form{
+    padding: 0 10px;
+     display: flex;
+     width: 100%;
+}
+
+.search input[type=text]{
+  width: calc(100% - 40px);
+  height: 50px;  
+}
+
+.search button{
+    width: 50px;
+    border: 0;
+    height: 50px;
+    background:#febd69;
+}
+
+.info-header{
+    height: 60px;
+    font-size: 16px;
+    margin: 8px 0;
+    padding:6px 22px;
+    cursor: pointer;
+}
+
+.info-header:hover{
+    border-radius: 1px;
+    outline: 1px solid white;
+}
+
+.info-header p{
+    white-space: nowrap; /*Não quebrar a linha*/
+}
+
+/*Banner(ou slide se preferir)*/
+
+.slides{
+    min-height: 600px; /*Altura mínima. Porém, não limita o tamanho
+    diferente do height apenas.*/
+    width: 100%;
+    background-image: url(images/teste.jpg);/*Dps,
+    mudar a imagem(essa é apenas um teste)*/
+    background-position: center;
+    background-size: cover;/*Independente do tamanho, cubra 
+    todo espaço da div selecionada*/
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box-slides{
+    position: relative;
+    top: 2px;
+    width: 22%;
+    background:white;
+    padding: 8px 12px;
+}
+
+.box-slides img{
+    width: 100%;
+}
+
+.box-slides a{
+    color: black;
+    text-decoration: none;
+}
+.box-slides a:hover{
+    color: rgb(108, 28, 28);
+}

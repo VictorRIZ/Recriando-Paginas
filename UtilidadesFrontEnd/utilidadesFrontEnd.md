@@ -59,3 +59,8 @@ place-items: center;
 
 Método para deixar os icons gradientes, utilizando a propriedade -webkit-linear-gradient. Bem semelhante ao background-gradient. Creio eu que é possível usar também em palavras, como h1, p.... Porque o icon quando não é imagem, é tratado como texto.
 
+*Comando git rm*
+git rm
+rm -f .git/index.lock
+
+(Caso ocorrer novamente o erro do index.lock, basta utilizar esse comando ai em cima.)
